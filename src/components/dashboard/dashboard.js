@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ChatlistComponent from "../chatlist/chatlist";
-import Button from "react-bootstrap/Button";
 import ChatViewComponent from "../ChatViewComponent/chatViewComponent";
 import NewChatComponent from "../newChat/newChat";
 import Col from "react-bootstrap/Col";
@@ -129,7 +128,7 @@ class dashboardComponent extends Component {
             );
           });
       } else {
-        this.props.history.push("/chatter/login");
+        this.props.history.push("/login");
       }
     });
   };

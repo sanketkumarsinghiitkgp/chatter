@@ -51,7 +51,7 @@ class loginComponent extends Component {
             Login
           </Button>
           <div>Don't have an account?</div>
-          <Link to="/chatter/signup">Sign Up!</Link>
+          <Link to="/signup">Sign Up!</Link>
         </Form>
         </Row>
       </div>
@@ -77,7 +77,7 @@ class loginComponent extends Component {
       .auth()
       .signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(() => {
-        this.props.history.push("/chatter/dashboard");
+        this.props.history.push("/dashboard");
       })
       .catch(err => {
         // console.log(err);

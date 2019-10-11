@@ -65,7 +65,7 @@ class signupComponent extends Component {
             Submit
           </Button>
           <div>Already have an account?</div>
-          <Link to="/chatter/login">Log in!</Link>
+          <Link to="/login">Log in!</Link>
         </Form></Row>
       </div>
     );
@@ -95,7 +95,7 @@ class signupComponent extends Component {
             .doc(this.state.email)
             .set(userObj)
             .then(() => {
-              this.props.history.push("/chatter/dashboard"); //prop received from the router.
+              this.props.history.push("/dashboard"); //prop received from the router.
             })
             .catch(dbError => {
               // console.log(dbError);

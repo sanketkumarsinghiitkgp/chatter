@@ -42,10 +42,10 @@ class landingPage extends Component {
   }
 
   signup=()=>{
-    this.props.history.push('/chatter/signup');
+    this.props.history.push('/signup');
   }
   login=()=>{
-    this.props.history.push('/chatter/login');
+    this.props.history.push('/login');
   }
 }
 

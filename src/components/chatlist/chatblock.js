@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Avatar from 'react-avatar';
-import Row from "react-bootstrap/Row";
 import Media from "react-bootstrap/Media";
 import './styles.css'
 class ChatBlock extends Component {
