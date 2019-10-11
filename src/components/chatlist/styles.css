@@ -1,0 +1,24 @@
+
+.selected{
+    background-color: grey;
+}
+.signout {
+
+    width: 100%;
+    text-align: center;
+    position: bottom;
+  }
+  .newchat {
+    width: 100%;
+    text-align: center;
+  }
+  .grey{
+      transition: background-color 0.5s;
+      background-color: grey;
+      color: white;
+  }
+  .white{
+    transition: background-color 0.5s;
+      background-color: black;
+      color:white;
+  }

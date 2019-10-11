@@ -1,0 +1,20 @@
+#chat-view-container {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 1vw;
+    width: 100%;
+    align-content: center;
+    background-color: black;
+    
+  }
+.urconv{
+    background-color: white;
+    color: black;
+    padding: 1vw;
+    
+    border-radius:2vh;
+}
+.message{
+    padding: 1vw;
+    color: white;
+}

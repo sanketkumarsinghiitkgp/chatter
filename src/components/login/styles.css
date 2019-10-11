@@ -1,0 +1,13 @@
+.panel {
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  form {
+    background-color: white;
+    color: black;
+    width: 50vw;
+    padding: 3vh;
+    border-radius: 2vh;
+  }
+  

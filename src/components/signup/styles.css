@@ -1,0 +1,9 @@
+.panel {
+  height: 100vh;
+}
+form {
+  background-color: silver;
+  width: 50vw;
+  padding: 3vh;
+  border-radius: 2vh;
+}
