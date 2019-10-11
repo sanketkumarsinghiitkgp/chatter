@@ -18,7 +18,7 @@ class landingPage extends Component {
             and CSS for the front-end.
           </p>
           <p>
-            <Button variant="secondary">Source Code</Button>
+            <Button variant="secondary" href="https://github.com/sanketkumarsinghiitkgp/chatter">Source Code</Button>
           </p>
           <p>
             You can create an account with your email address and password. <br/>You
