@@ -47,7 +47,7 @@ class loginComponent extends Component {
             />
           </Form.Group>
           <div style={{ color: "red" }}>{this.state.error}</div>
-          <Button variant="primary" type="submit">
+          <Button variant="secondary" type="submit">
             Login
           </Button>
           <div>Don't have an account?</div>

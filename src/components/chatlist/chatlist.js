@@ -9,7 +9,7 @@ class ChatlistComponent extends Component {
   render() {
     return (
       <Row className="pad justify-content-center"><div>
-        <Row className="pad justify-content-center"><Button className="pad newchat" onClick={this.newChat}>New Chat</Button></Row>
+        <Row className="pad justify-content-center"><Button className="pad newchat" variant="secondary" style={{"border-radius": "0"}} onClick={this.newChat}>New Chat</Button></Row>
         <Row className="pad justify-content-center">{this.props.chats ? (
           <div>
             {this.props.chats.map((chat, index) => {
@@ -34,7 +34,7 @@ class ChatlistComponent extends Component {
             
           </div>
         ) : null}</Row>
-         <Row className="pad justify-content-center"><Button className="signout" onClick={this.signOut}>Sign Out</Button></Row>
+         <Row className="pad justify-content-center"><Button className="signout" onClick={this.signOut} variant="secondary" style={{"border-radius": "0"}}>Sign Out</Button></Row>
       </div></Row>
     );
   }

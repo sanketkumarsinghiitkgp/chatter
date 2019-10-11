@@ -61,7 +61,7 @@ class signupComponent extends Component {
             />
           </Form.Group>
           <div style={{ color: "red" }}>{this.state.error}</div>
-          <Button variant="primary" type="submit">
+          <Button variant="secondary" type="submit">
             Submit
           </Button>
           <div>Already have an account?</div>

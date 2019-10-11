@@ -18,7 +18,7 @@ class landingPage extends Component {
             and CSS for the front-end.
           </p>
           <p>
-            <Button variant="primary">Source Code</Button>
+            <Button variant="secondary">Source Code</Button>
           </p>
           <p>
             You can create an account with your email address and password. <br/>You
@@ -27,8 +27,8 @@ class landingPage extends Component {
             mynameisbob)
           </p>
           <Row>
-            <Col><Button variant="primary" onClick={this.signup}>Sign Up </Button></Col>
-            <Col><Button variant="primary" onClick={this.login}>Log In </Button></Col>
+            <Col><Button variant="secondary" onClick={this.signup}>Sign Up </Button></Col>
+            <Col><Button variant="secondary" onClick={this.login}>Log In </Button></Col>
             <Col md={9}><div/></Col>
           </Row>
           <p>
