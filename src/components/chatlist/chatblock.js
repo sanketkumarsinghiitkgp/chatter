@@ -10,8 +10,8 @@ class ChatBlock extends Component {
         return (<Media onClick={this.props.onClick} className={this.props.highlighted?"grey":"white"}>
             <Avatar name={this.props.userEmail }    />
             <Media.Body >
-            <h5>{this.props.userEmail}</h5>
-            <p>{this.props.children}</p>
+            <h5>{" "+this.props.userEmail}</h5>
+            <p>{" "+this.props.children}</p>
             </Media.Body>
             </Media>  );
     }
